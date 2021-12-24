@@ -1,0 +1,22 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    background-color: #DCCCBB;
+}
+.logo {
+font-family: 'Shizuru', cursive;;
+font-size: 3rem;
+}
+
+.cart-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cart-counter {
+    font-size: 1.2rem;
+    padding: 10px;
+}
