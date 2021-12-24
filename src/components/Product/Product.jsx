@@ -8,7 +8,7 @@ export default class Product extends React.Component {
             <img src={imgUrl} alt={description} />
             <h3>{name}</h3>
             <h4>{description}</h4>
-            <p>{price}</p>
+            <p>₪{price}</p>
             <button onClick={() => addToCart(product)}>Add To Cart</button>
         </div>
     }

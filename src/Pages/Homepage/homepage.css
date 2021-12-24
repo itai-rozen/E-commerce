@@ -8,6 +8,7 @@
 }
 
 .category-card {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +16,37 @@
     border: 2px solid black;
     border-radius: 12px;
     box-shadow: 2px 2px 3px 3px black;
+    background-position: center;
+    opacity: 50%;
+    overflow: hidden;
 }
 
 .category-card:hover {
     box-shadow: 0 0 0 0;
+    opacity: 1;
 }
+
+.header-container {
+    height: 50%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    font-size: 2.2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.sale {
+    position: absolute;
+    background-color: red;
+    opacity: 1;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 100px;
+    transform: rotate(45deg);
+    right: -110px;
+    top: 50px;
+}
+
